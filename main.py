@@ -6,9 +6,6 @@ my_coffee_maker = CoffeeMaker()
 my_menu = Menu()
 my_money_machine = MoneyMachine()
 
-# ordered_coffee = my_menu.find_drink("latte")
-# print(ordered_coffee.cost)
-
 while True:
     order = input("​What would you like? (espresso/latte/cappuccino/): ")
 
